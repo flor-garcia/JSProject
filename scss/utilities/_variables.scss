@@ -1,0 +1,10 @@
+@import "base/fonts";
+@import "utilities/lists";
+
+$font-awesome: "Awesome";
+$font-color: nth($colors, 13);
+$bg-color: nth($colors, 7);
+$hf-color: nth($colors, 12);
+$nav-fontsize: nth($fontsize, 4);
+$fot-fontsize: nth($fontsize, 2);
+$hover-text: nth($colors, 2)

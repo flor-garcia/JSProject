@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+
+body {
+  background-color: #FFFBFA; }
+
+.navbar {
+  background-color: #DCD1CB; }
+  .navbar .navbar-collapse .navbar-nav .nav-link {
+    font-family: "Awesome";
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #BE9A8A;
+    font-size: 1.2rem; }
+    .navbar .navbar-collapse .navbar-nav .nav-link:hover {
+      color: #8E908E; }
+  .navbar .navbar-brand {
+    display: flex;
+    justify-content: center; }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+
+.grid-container .photo-container .img-social {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.grid-container {
+  padding: 50px 0 50px 0; }
+  .grid-container .photo-container {
+    position: relative;
+    margin: 10px 0 10px 0; }
+    .grid-container .photo-container .img-social {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition: 0.2s;
+      visibility: hidden; }
+    .grid-container .photo-container:hover .img-social {
+      background: rgba(255, 255, 255, 0.598);
+      visibility: initial; }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+
+footer {
+  background-color: #DCD1CB;
+  padding: 20px 0 20px 0; }
+  footer .footer-nav-container {
+    border: none;
+    border-color: transparent; }
+    footer .footer-nav-container .list-group .list-group-item {
+      background-color: #DCD1CB;
+      border: none;
+      border-color: transparent; }
+      footer .footer-nav-container .list-group .list-group-item .list-group-link {
+        font-family: "Awesome";
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: none;
+        color: #BE9A8A;
+        font-size: 0.8rem; }

@@ -1,0 +1,35 @@
+@import "utilities/variables";
+@import "utilities/lists";
+@import "utilities/mixins";
+
+
+
+body {
+    background-color: $bg-color;
+}
+
+
+
+
+.navbar {
+    background-color: $hf-color;
+
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-link {
+                @include nav-Text;
+                font-size: $nav-fontsize;
+
+                &:hover{
+                    color: $hover-text;
+                }
+            }
+
+        }
+    }
+    .navbar-brand{
+        display: flex;
+        justify-content: center;
+    
+    }
+}

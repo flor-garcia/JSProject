@@ -1,0 +1,37 @@
+@import "utilities/variables";
+@import "utilities/lists";
+@import "utilities/mixins";
+@import "utilities/extend";
+
+
+
+
+.grid-container {
+    padding: 50px 0 50px 0;
+
+
+
+    .photo-container {
+        position: relative;
+        margin: 10px 0 10px 0;
+
+
+
+        .img-social {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            transition: 0.2s;
+            visibility: hidden;
+            @extend %flexbox;
+        }
+
+        &:hover .img-social {
+            background: rgba(255, 255, 255, 0.598);
+            visibility: initial;
+            ;
+        }
+    }
+}

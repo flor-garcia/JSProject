@@ -1,0 +1,35 @@
+@import "utilities/variables";
+@import "utilities/lists";
+@import "utilities/mixins";
+
+
+
+footer{
+    background-color: $hf-color;
+    padding: 20px 0 20px 0;
+
+    .footer-nav-container{
+       border: none;
+       border-color: transparent;
+        
+        .list-group{
+    
+            
+           
+            .list-group-item{
+                background-color: $hf-color;
+                border: none;
+                border-color: transparent;
+                
+                .list-group-link{
+                    @include nav-Text;
+                    font-size: $fot-fontsize;
+                  
+                }
+            }
+
+            
+            
+        }
+    }
+}

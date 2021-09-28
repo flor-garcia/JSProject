@@ -1,0 +1,11 @@
+@import "utilities/variables";
+@import "utilities/lists";
+
+
+@mixin nav-Text {
+    font-family: $font-awesome;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: $font-color;
+}

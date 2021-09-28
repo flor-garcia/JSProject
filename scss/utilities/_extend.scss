@@ -1,0 +1,9 @@
+@import "utilities/variables";
+@import "utilities/lists";
+@import "utilities/mixins";
+
+%flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
