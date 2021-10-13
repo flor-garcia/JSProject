@@ -1,10 +1,42 @@
 @font-face {
   font-family: "Awesome";
-  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Awesome";
-  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
 
 body {
   background-color: #FFFBFA; }
@@ -12,7 +44,7 @@ body {
 .navbar {
   background-color: #DCD1CB; }
   .navbar .navbar-collapse .navbar-nav .nav-link {
-    font-family: "Awesome";
+    font-family: "BrandonBold";
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
@@ -26,21 +58,85 @@ body {
 
 @font-face {
   font-family: "Awesome";
-  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Awesome";
-  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Awesome";
-  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Awesome";
-  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
 
-.grid-container .photo-container .img-social {
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
+
+.grid-container .photo-container .img-social, .mainTitle, .service-container .service-description service-text {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -64,11 +160,43 @@ body {
 
 @font-face {
   font-family: "Awesome";
-  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Awesome";
-  src: url("../fonts/FontAwesone.otf") format("opentype"); }
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
 
 footer {
   background-color: #DCD1CB;
@@ -81,9 +209,171 @@ footer {
       border: none;
       border-color: transparent; }
       footer .footer-nav-container .list-group .list-group-item .list-group-link {
-        font-family: "Awesome";
+        font-family: "BrandonBold";
         font-weight: 500;
         font-style: normal;
         text-decoration: none;
         color: #BE9A8A;
         font-size: 0.8rem; }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
+
+.reservation-container {
+  background-image: url("https://i.ibb.co/dtD6ZQ1/leaves-background.jpg");
+  background-size: contain;
+  width: 100%;
+  padding: 180px 0px; }
+  .reservation-container .card {
+    margin-right: 30px; }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Awesome";
+  src: url("/fonts/awesome/FontAwesone.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonBold";
+  src: url("/fonts/brandon/Brandon_bld.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonRegular";
+  src: url("/fonts/brandon/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: "BrandonThin";
+  src: url("/fonts/brandon/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "MrEavesRegular";
+  src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype"); }
+
+.grid-container .photo-container .img-social, .mainTitle, .service-container .service-description service-text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.mainTitle {
+  font-family: "BrandonBold";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.2rem;
+  letter-spacing: .0678571em;
+  padding: 30px 0;
+  margin: 20px 0 20px 0; }
+
+.service-container {
+  margin: 80px 0; }
+  .service-container .service-description {
+    align-content: center; }
+    .service-container .service-description .service-title {
+      font-family: "BrandonRegular";
+      font-weight: 500;
+      font-style: normal;
+      font-size: 2rem;
+      letter-spacing: .0678571em; }
+    .service-container .service-description service-text {
+      font-family: "MrEavesRegular";
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1rem;
+      line-height: 1.5rem; }
+
+.accordion-container {
+  padding: 50px; }

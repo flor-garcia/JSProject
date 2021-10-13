@@ -1,4 +1,24 @@
 @font-face {
     font-family: "Awesome" ;
-    src: url("../fonts/FontAwesone.otf") format("opentype");   
+    src: url("/fonts/awesome/FontAwesone.otf") format("opentype");   
+}
+
+@font-face{
+    font-family: "BrandonBold";
+    src: url("/fonts/brandon/Brandon_bld.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "BrandonRegular";
+    src: url("/fonts/brandon/Brandon_reg.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "BrandonThin";
+    src: url("/fonts/brandon/Brandon_thin.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "MrEavesRegular";
+    src: url("/fonts/mrEvaes/MrEavesXLNarOT-Reg.ttf") format("truetype");
 }

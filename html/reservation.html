@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,15 +19,124 @@
 
 <body>
 
+    <!---------------------------- START HEADER ---------------------->
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!-- Toggler button - responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <!-- NavBar Items -->
+                    <div class="navbar-nav part-one">
+                        <a class="nav-link" href="../html/services.html">SERVICIOS</a>
+                    </div>
+                    <div class="navbar-nav part-two">
+                        <a class="nav-link" href="../html/reservation.html">RESERVAS</a>
+                        <a class="nav-link" href="../html/aboutme.html">SOBRE MI</a>
+                    </div>
+                </div>
+                <!-- Brand Name -->
+                <div>
+                    <a class="navbar-brand" href="../index.html"><img src="https://i.ibb.co/6v5wNWW/Womman-Nails-1.png"
+                            alt="" width="200" height="120"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!---------------------------- END HEADER ---------------------->
+
+    <div class="reservation-container row">
+        <div class="col-1"></div>
+        <div class="card col-3">
+            <div class="card-body">
+                <h2 class="card-title">Servicios</h2>
+                <!-- Aca se inserta el array de productos -->
+                <div class="list-group products-container">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="card col-3">
+            <div class="card-body">
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Selecciona una zona
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <div class="list-group zone-list-container">
+                             
+                          </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        
+
+        <div class="card col-3">
+            <div class="card-body"></div>
+        </div>
+        <div class="col-2"></div>
+
+
+    </div>
+
+   
 
 
 
 
 
 
+    <!---------------------------- START FOOTER ---------------------->
+    <footer>
+        <div class="row">
+            <div class="col-2">
+                <img src="https://i.ibb.co/zFB0xBY/Image-about-fashion-in-by-on-We-Heart-It-1.jpg" alt="" width="200"
+                    height="200">
+            </div>
+            <div class="col-2">
+                <div class="card footer-nav-container" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a class="list-group-link" href="../index.html">HOME</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-link" href="html/services.html">SERVICIOS</a>
+                        </li>
 
-
-
+                        <li class="list-group-item">
+                            <a class="list-group-link" href="html/reservation.html">RESERVAS</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-link" href="html/aboutme.html">SOBRE MI</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <div>
+                    <P>Seguinos</P>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/womannails._/?hl=es-la"><img src="" alt=""></a>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div>
+            <p>From Chile with love</p>
+        </div>
+    </footer>
+    <!---------------------------- END FOOTER ---------------------->
 
 
     <!-- BOOTSTRAP -->
@@ -40,7 +149,10 @@
 
 
     <!-- JAVASCRIPT -->
-    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/json.js"></script>
+   
 </body>
 
 </html>

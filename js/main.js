@@ -1,17 +1,132 @@
-/* const Products = [
+
+// Array de productos
+const Products = [
     {id: 1, product: 'Esmaltado permanente', price: 23100},
-    {id: 2, product: 'Acrilico colores basicos',  price: 35000},
-    {id: 3, product: 'Acrilico francesa o baby boomer',  price: 38000},
-    {id: 4, product: 'Manicure rusa',  price: 31500},
-    {id: 5, product: 'Diseños', price: 500},
-    {id: 6, product:  'Tratamiento endurecedor', price: 10500},
-    {id: 7, product:  'Degradé',  price: 1500},
-    {id: 8, product:  'Cristales swarovski',  price: 5200},
-    {id: 9, product:  'Retiro de permanente otro salon',  price: 5000},
-    {id: 10, product:  'Retiro de acrilico otro salon',  price: 8000},
- 
-] */
+    {id: 2, product: 'Acrilico',  price: 35000},
+    {id: 3, product: 'Manicure rusa',  price: 31500},
+    {id: 4, product: 'Tratamiento endurecedor', price: 10500},
+    {id: 5, product: 'Gel X',  price: 1500},]
+
+
+
+// Recorrer el array para crear el listado de servicios en la seccion de reservas. 
+
+
+for (const product of Products) {
+    let productsContainer = document.createElement('label');
+    productsContainer.innerHTML =
+        `<label class="list-group-item">
+         <input class="form-check-input me-1 type="checkbox" value=""> ${product.product}
+         </label>`;
+    document.getElementsByClassName('products-container')[0].appendChild(productsContainer);   
+    
+
+}
+
+
+
 /* 
+let prueba =  document.getElementsByClassName("product-item");
+console.log(prueba);
+for (const service of prueba) {
+service.onclick = () =>  {
+    if (service.checked) 
+    {console.log(`${Products.product}`)}
+
+} */
+}
+
+// Array de zonas
+const Zones = [
+    {id: 1, zone: "Chicureo", price: 10000 ,group: 1 },
+    {id: 2, zone: "Quilicura",price: 5000,group: 1 },
+    {id: 3, zone: "Pudahuel", price: 8000 ,group: 1 },
+    {id: 4, zone: "Renca", price: 5000 ,group: 2 },
+    {id: 5, zone: "Pudahuel", price: 8000 ,group: 2 },
+    {id: 6, zone: "Las Condes", price: 8000 ,group: 2 },]
+
+// Constructor para almancenar respuesta del cliente
+class Reservation {
+    constructor (product, zone, date, hour) {
+        this.product = product;
+        this.zone = zone;
+        this.date = date;
+        this.hour = hour;
+    }
+}
+
+
+
+
+
+
+
+
+// Recorrer el array para crear el listado de zonas disponibles en la seccion de reservas. 
+for (const zones of Zones) {
+    let zoneList = document.createElement('button');
+    zoneList.innerHTML= 
+    `<button type="button" class="list-group-item list-group-item-action" aria-current="true">
+    ${zones.zone} </button>`;
+    document.getElementsByClassName('zone-list-container')[0].appendChild(zoneList);  
+} 
+
+
+
+/* let prueba =  document.getElementsByClassName("product-item")[0];
+prueba.onclick = () =>  {
+    let productSelected = document.getElementsByClassName("product-item")[0].checked;
+    console.log(productSelected)} */
+
+
+
+/* 
+unaFuncion (){
+    const serviceSelected = JSON.parse(localStorage.getItem)
+}
+ */
+
+
+
+
+
+/* let productsAnswer = document.getElementsByClassName('products-item');
+for (const item of productsAnswer ){
+
+}
+
+
+productsAnswer.onclick = () =>{
+    console.log(productsAnswer)
+}
+
+
+
+console.log( document.getElementsByClassName('zone-list-container')[0])
+ */
+/* let serviceCheckbox = document.$('#item');
+
+serviceCheckbox.addEventListener ('click', function()){
+    if(serviceCheckbox.checked) {
+        console.log('Elemento con click')
+    } else {
+        console.log('Elemento sin click')
+    }
+}
+
+let serviceSelected = $( '#item:checkbox:checked' );
+
+console.log(serviceSelected[0]);
+ */
+/* for (const product of Products){
+    let service = document.createElement("input");
+    service.innerHTML = product.product
+    document.body.appendChild(service);
+} */
+ 
+
+/* 
+
 
 let cart = 0;
 

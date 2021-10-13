@@ -1,0 +1,38 @@
+@import "utilities/variables";
+@import "utilities/lists";
+@import "utilities/mixins";
+@import "utilities/extend";
+
+
+.mainTitle {
+    @include titles;
+    @extend %flexbox;
+    padding: 30px 0;
+    margin: 20px 0 20px 0;
+}
+
+
+.service-container {
+    margin: 80px 0;
+
+    .service-description {
+        align-content: center;
+
+        .service-title {
+            @include subTitles;
+
+        }
+
+        service-text {
+            @include text;
+            @extend %flexbox;
+        }
+    }
+
+
+}
+
+
+.accordion-container{
+    padding: 50px;
+}

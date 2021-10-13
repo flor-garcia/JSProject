@@ -2,10 +2,36 @@
 @import "utilities/lists";
 
 
+
 @mixin nav-Text {
-    font-family: $font-awesome;
+    font-family: $font-brandonBld;
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
     color: $font-color;
+}
+
+@mixin titles {
+    font-family: $font-brandonBld;
+    font-weight: 900;
+    font-style: normal;
+    font-size: nth($fontsize,7);
+    letter-spacing: .0678571em; 
+}
+
+
+@mixin subTitles {
+    font-family: $font-brandonRegular;
+    font-weight: 500;
+    font-style: normal;
+    font-size: nth($fontsize,6);
+    letter-spacing: .0678571em;
+}
+
+@mixin text {
+    font-family: $font-mrEavesRegular;
+    font-weight: 400;
+    font-style: normal;
+    font-size: nth($fontsize,3);
+    line-height: nth($fontsize, 5)
 }

@@ -14,5 +14,13 @@
     "nodemon": "^2.0.13"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flor-garcia/JSProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flor-garcia/JSProject/issues"
+  },
+  "homepage": "https://github.com/flor-garcia/JSProject#readme",
   "description": ""
 }

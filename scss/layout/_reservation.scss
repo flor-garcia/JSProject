@@ -1,0 +1,18 @@
+@import "utilities/variables";
+@import "utilities/lists";
+@import "utilities/mixins";
+
+
+
+
+.reservation-container{
+    background-image: url("https://i.ibb.co/dtD6ZQ1/leaves-background.jpg");
+    background-size: contain;
+    width: 100%;
+    padding: 180px 0px;
+
+    .card{
+        margin-right: 30px;
+    }
+    
+}
